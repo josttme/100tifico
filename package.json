@@ -1,0 +1,30 @@
+{
+	"name": "jsvanilla",
+	"version": "1.0.0",
+	"description": "sigle page application",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --open --mode development"
+	},
+	"keywords": [
+		"JavaScript"
+	],
+	"author": "Josue Tapia <josue.tapia@live.com.ar>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.17.5",
+		"@babel/plugin-transform-runtime": "^7.17.0",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/runtime": "^7.17.2",
+		"babel-loader": "^8.2.3",
+		"babel-polyfill": "^6.26.0",
+		"copy-webpack-plugin": "^10.2.4",
+		"html-webpack-plugin": "^5.5.0",
+		"webpack-dev-server": "^4.7.4"
+	},
+	"dependencies": {
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2"
+	}
+}
